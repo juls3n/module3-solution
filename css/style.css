@@ -1,0 +1,14 @@
+.navbar-header .navbar-brand{
+    height: auto;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+@media(max-width: 768px){
+    #collapsable-nav ul{
+        text-align: center;
+    }
+}
