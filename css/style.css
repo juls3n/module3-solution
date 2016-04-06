@@ -7,8 +7,29 @@
   margin-top: -40px;
 }
 
+.navbar-brand a{
+   color: darkslateblue;
+       
+}
+
+.navbar-brand a:hover, .navbar-brand a:active {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.main-content section{
+    background: #bbb;
+   
+}
+
+.main-content section p{
+    padding: 10px;
+}
 @media(max-width: 768px){
-    #collapsable-nav ul{
-        text-align: center;
+    
+    #collapsable-nav {
+        margin: 0 auto;
+        clear: both;
+        text-align: center
     }
 }
