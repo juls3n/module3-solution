@@ -17,10 +17,13 @@
     color: darkslateblue;
 }
 
-.main-content section{
+.main-content section div{
     background: #bbb;
-   
-}
+    margin-bottom: 20px;
+    padding-top: 1px;
+    }
+
+
 
 .main-content section p{
     padding: 10px;
