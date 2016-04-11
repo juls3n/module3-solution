@@ -11,7 +11,7 @@
   }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-  border: 2px solid lightgrey;  
+  border: 2px solid #f0f0f0;  
 }
 .navbar-header button.navbar-toggle.collapsed, .navbar-header .collapsed .icon-bar{
   border: 2px solid darkslateblue;  
@@ -52,11 +52,20 @@
     
     #collapsable-nav {
         background: white;
-        margin: 0 auto;
         clear: both;
-        text-align: center
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        font-weight: 700;
+            }
+    #collapsable-nav .nav{
+        margin: 0;
+        border: 2px solid darkslateblue;
     }
-    #collapsable-nav li{
-       border: 2px solid darkslateblue; 
+    #collapsable-nav .nav-item{
+       border-bottom: 2px solid darkslateblue; 
+    }
+    #collapsable-nav .nav-item:last-child{
+       border-bottom: 0; 
     }
 }
