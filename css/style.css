@@ -1,12 +1,21 @@
+.navbar{
+    background: #bbb;
+}
 .navbar-header .navbar-brand{
     height: auto;
 }
 
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -40px;
-}
+  margin-top: -70px;
+  }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid lightgrey;  
+}
+.navbar-header button.navbar-toggle.collapsed, .navbar-header .collapsed .icon-bar{
+  border: 2px solid darkslateblue;  
+}
 .navbar-brand a{
    color: darkslateblue;
        
@@ -19,20 +28,35 @@
 
 .main-content section div{
     background: #bbb;
-    margin:10px 20px;
+    margin:10px 0px;
     padding-top: 1px;
-    }
+}
 
 
 
 .main-content section p{
     padding: 10px;
+    min-height: 700px;
 }
+
+.main-content section a{
+    float: right;
+    color: inherit;
+    }
+.main-content section div:after{
+    content:"";
+    display: table;
+    clear: both;
+    }
 @media(max-width: 768px){
     
     #collapsable-nav {
+        background: white;
         margin: 0 auto;
         clear: both;
         text-align: center
+    }
+    #collapsable-nav li{
+       border: 2px solid darkslateblue; 
     }
 }
